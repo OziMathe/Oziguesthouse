@@ -2,6 +2,8 @@
 #Background{
  background-image: url(images/mainhouse.jpg);   
  background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
 }
  h1{
 text-align: center;
@@ -154,6 +156,8 @@ background-color: grey;
 {
 background-image: url(images/house2.jpg);
 background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 p{
