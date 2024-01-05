@@ -1,0 +1,162 @@
+
+#Background{
+ background-image: url(images/mainhouse.jpg);   
+ background-size: cover;
+}
+ h1{
+text-align: center;
+color: grey;
+font-family: 'Courier New', Courier, monospace;
+font-size: 50px;
+ }
+
+ h2{
+text-align: center;
+color:rgb(95, 104, 112);
+font-family: 'Courier New', Courier, monospace;
+padding-top: 420PX;
+font-size: 30px;
+ }
+
+ .nagbar ul 
+{
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+background-color:rgb(177, 174, 174);
+
+}
+
+.nagbar a
+{
+color: white;
+text-decoration: none;
+display:inline-block;
+padding: 20px;
+text-align: center;
+}
+
+.nagbar a:hover
+{
+background-color:rgb(45, 41, 41);
+}
+
+.homenav ul
+{
+list-style-type: none;
+background-color: rgb(128, 128, 128);
+padding: 0px;
+margin:0px;
+
+}
+
+.homenav a{
+ color: white;
+text-decoration: none;
+display:inline-block;
+padding: 10px;
+text-align: center;
+}
+
+.homenav a:hover
+{
+background-color: rgb(101, 95, 95);
+}
+.homenav2 a{
+    color: white;
+    text-decoration: none;
+    display:block;
+    padding: 20px;
+    text-align: center;
+    margin-top: 440px;
+    font-size: large;
+}
+
+.homenav2 a:hover
+{
+background-color: rgb(101, 95, 95);
+}
+h5{
+text-align: center;
+font-size: 30px;
+
+}
+
+h6{
+text-align: center;
+font-size: 25px;
+}
+
+.container
+{
+width: 55vmin;
+position:fixed;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+border: 10px solid white;
+border-radius: 8px;
+box-shadow: 10px 25px 28px black;
+overflow: hidden;
+}
+.img-container
+{
+width: 100%;
+display: flex;
+animation: slide 20s infinite;
+}
+
+img{
+width:100%;
+}
+
+@keyframes slide{
+0%
+{
+transform: translateX(0);
+}
+25%
+{
+    transform: translateX(0);   
+}
+30%{
+    transform: translateX(-100%);   
+
+}
+50%{
+    transform: translateX(-100%);   
+}
+55%{
+    transform: translateX(-200%);   
+}
+75%
+{
+    transform: translateX(-200%);   
+}
+80%
+{
+    transform: translateX(-300%);   
+}
+100%{
+    transform: translateX(-300);   
+}
+
+
+}
+
+.back
+{
+background-color: grey;
+}
+
+
+.row
+{
+background-image: url(images/house2.jpg);
+background-size: cover;
+}
+
+p{
+font-size:large;
+text-align: center;
+}
